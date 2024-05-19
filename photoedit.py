@@ -5,8 +5,8 @@ import PIL.ImageFilter as ImageFilter
 import os
 
 # Defining paths for unedited and edited images
-path = "C:/Users/vinay/Coding/New folder/Project/Imageeditor/imgs"  # Unedited images folder
-pathOut = "C:/Users/vinay/Coding/New folder/Project/Imageeditor/editedImgs"  # Edited images folder
+path = "../imgs"  # Unedited images folder
+pathOut = "../editedImgs"  # Edited images folder
 
 # Loop through each file in the unedited images folder
 for filename in os.listdir(path):
